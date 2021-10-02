@@ -1,0 +1,41 @@
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vh 13vh 5vh 5vh;
+    vertical-align: baseline;
+}
+.logo {
+    margin-left: 8vh;
+}
+.nav {
+    max-width: 70vh;
+    width: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list {
+        width: 50% + 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 8vh;
+    }
+
+    &__li {
+        list-style: none;
+    }
+    
+    &__link {
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.346154px;
+        color: #111111;
+    }
+}

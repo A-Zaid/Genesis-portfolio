@@ -1,0 +1,212 @@
+$main-txt-color: #111111; 
+.main {
+    min-height: 0vh;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 13vh 5vh 13vh;
+    color: $main-txt-color;
+    &__p {
+        font-size: 22px;
+        letter-spacing: -0.423077px;
+        color: #4A4FF2;
+    }
+    &__h3 { 
+        font-size: 40px;
+        color: $main-txt-color;
+        &__span {
+            color: #4A4FF2;
+        }
+    }
+    &__h4 { 
+        font-size: 28px;
+        margin: 0%;
+    }
+    &__h5 {
+        font-size: 22px; 
+    }
+    &__h6 {
+        font-size: 16px;
+    }
+    &__sub {
+        font-size: 18px;
+        margin: 0px;
+    }
+    &__line-height20{
+        line-height: 20px;
+    }
+    &__line-height23{
+        line-height: 23px;
+    }
+    &__line-height26{
+        line-height: 26px;
+    }
+    &__line-height28{
+        line-height: 28px;
+    }
+    &__line-height38{
+        line-height: 38px;
+    }
+    &__line-height55{
+        line-height: 55px;
+    }
+    &__line-height60{
+        line-height: 60px;
+    }
+    &__opaque5{
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__opaque6{
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+    &__opaque8{
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+    &__italic{
+        font-style: italic;  
+    }
+    &__bold{
+        font-weight: bold;
+    }
+    &__element-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 60%;
+    }
+    &__element-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 50%;
+    }
+    &__projectdetail-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 60%;
+        margin-top: 10vh;
+    }
+    &__contact-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 40%;
+        margin-top: 10vh;
+    }
+    &__contact-intro-space{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        width: 20%;
+        margin-top: 10vh;  
+    }
+    &__element-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        width: 16%;
+        gap:10px;
+    }
+    &__projectdetail-lst{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        width: 30%;
+        margin-top: 10vh;
+    }
+    &__projectdetail-lstelement{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+    } 
+    &__footer-container{
+        display: flex;
+        min-width: 30%;
+        justify-content: flex-start;
+        align-self: flex-end;
+        flex-direction: column;
+        &__rectangle {
+            background: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            height: 2px;
+            width: 30px;
+        }
+    }
+    &__middle-footer-container{
+        display: flex;
+        min-width: 10%;
+        justify-content: flex-start;
+        align-self: flex-end;
+    }
+    &__divider{
+        background: #D8D8D8;
+        height: 2px;
+        width: 100%
+    }
+    &__divider-projectdtl{
+        background: #D8D8D8;
+        mix-blend-mode: normal;
+        opacity: 0.3;
+        border: 1px solid #979797;
+        box-sizing: border-box;
+        width: 100%
+    }
+    &__img{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 100%;
+        max-height: 150vh;
+    }
+    &__sub-img{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between
+    }
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    &__input-field{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        opacity: 0.3;
+        border-bottom: 1px solid #979797;
+        box-sizing: border-box;
+        background-color:#FFFFFF;
+        text-decoration-color: #FEFFFF;
+    }
+    &__btn{
+        background: #4A4FF2;
+        text-align: center;
+        color: #FFFFFF;
+        width: 30%;
+        height: 10vh;
+        border: 0;
+    }
+}
+
+@import 'grid'; 
+

@@ -1,0 +1,100 @@
+ .grid {
+    align-items: center;
+    margin: 5vh 13vh 0 10vh;
+}
+ 
+.grid-container {
+    display: grid;
+    gap : 5vh;
+    height:1960px;
+    width: 100%;
+    padding: 10px;
+    grid-template-areas:
+    'cel11 cel12 cel13'
+    'cel11 cel12 cel13'
+    'cel11 cel22 cel13'
+    'cel21 cel22 cel13'
+    'cel21 cel22 cel23'
+    'cel21 cel32 cel23'
+    'cel31 cel32 cel23'
+    'cel31 cel32 cel33'
+    'cel31 cel42 cel33'
+    'cel41 cel42 cel33'
+    'cel41 cel42 cel43'
+    'cel41 cel42 cel43';
+}
+
+.item1 { 
+    grid-area: cel11; 
+    background-image: url(../images/p1-1.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  }
+.item2 { 
+    grid-area: cel12;  
+    background-image: url(../images/p1-2.png);     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item3 { 
+    grid-area: cel13;  
+    background-image: url(../images/p1-3.png);     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item4 { 
+    grid-area: cel21;  
+    background-image: url(../images/p2-1.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item5 { 
+    grid-area: cel22;  
+    background-image: url(../images/p2-2.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item6 { 
+    grid-area: cel23;  
+    background-image: url(../images/p2-3.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item7 { 
+    grid-area: cel31; 
+    background-image: url(../images/p3-1.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item8 { 
+    grid-area: cel32; 
+    background-image: url(../images/p3-2.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item9 { 
+    grid-area: cel33; 
+    background-image: url(../images/p3-3.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item10 { 
+    grid-area: cel41; 
+    background-image: url(../images/p4-1.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item11 { 
+    grid-area: cel42; 
+    background-image: url(../images/p4-2.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+.item12 { 
+    grid-area: cel43;  
+    background-image: url(../images/p4-3.png);     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+
+

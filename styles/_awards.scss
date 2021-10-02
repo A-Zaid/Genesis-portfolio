@@ -1,0 +1,35 @@
+.awards-main {
+  font-family: Mulish;
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+  margin: 5vh 13vh 5vh 13vh;
+  &__col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width:35%;
+}
+&__col2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 25%;
+}
+&__col3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 25%;
+}
+&__col4{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 15%;
+}
+}
